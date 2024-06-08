@@ -3,9 +3,9 @@ from __future__ import annotations
 import binascii
 from enum import Enum
 from functools import reduce
-from serial import Serial
 
 from loguru import logger
+from serial import Serial
 
 
 class InstructionType(Enum):
